@@ -28,3 +28,8 @@ Arquivos mais importantes
             'password' => $faker->lexify('????')
         ];
     });
+
+**Comando para popular**
+      
+    php artisan tinker
+    factory('App\Aluno',10)->create()
